@@ -5,7 +5,7 @@ function register_acf_blocks() {
 }
 
 
-add_action( 'acf/init', 'hfm_acf_init_block_types' );
+//add_action( 'acf/init', 'hfm_acf_init_block_types' );
 function hfm_acf_init_block_types() {
     if (function_exists('acf_register_block_type')) {
         
