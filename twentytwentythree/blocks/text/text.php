@@ -1,14 +1,14 @@
 <?php 
-//**
- //* Text Block Template
- //* 
-// * @param    array        $block      The block settings and attributes.
-// * @param    string       $content    The block inner HTML (empty).
-// * @param    bool         $is_preview True During AJAX Preview.
-// * @param    (int|string) $post_id    The Post ID this block is saved.
-// */
+/**
+ * Text Block Template
+ * 
+ * @param    array        $block      The block settings and attributes.
+ * @param    string       $content    The block inner HTML (empty).
+ * @param    bool         $is_preview True During AJAX Preview.
+ * @param    (int|string) $post_id    The Post ID this block is saved.
+ */
 
-//print_r($block);
+print_r($block);
 
 
    // $text1 = $block['text'];
