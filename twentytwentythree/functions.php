@@ -9,10 +9,10 @@ function hfm_acf_init_block_types() {
         
         // register our custom block
         acf_register_block_type( array(
-            'name' => 'test',
-            'title' => 'test',
-            'description' => 'test',
-            'render_template' => __dir__ . 'blocks/text/text.php',
+            'name' => 'text',
+            'title' => 'text',
+            'description' => 'text',
+            'render_template' => __dir__ . 'blocks/text/',
             'category' => 'formatting',
             'icon' => 'admin-comments',
             'keywords' => array('text')
