@@ -1,6 +1,6 @@
 {
     "name": "acf/text",
-    "title": "text block",
+    "title": "text",
     "description": "A custom testimonial block.",
     "style": [ "file:./text.css" ],
     "category": "formatting",
