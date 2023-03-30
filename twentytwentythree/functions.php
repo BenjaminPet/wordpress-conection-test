@@ -12,12 +12,12 @@ function hfm_acf_init_block_types() {
             'name' => 'test',
             'title' => 'test',
             'description' => 'test',
-            'render_template' => 'blocks/text/text.php',
+            'render_template' => __dir__ . 'blocks/text/text.php',
             'category' => 'formatting',
             'icon' => 'admin-comments',
             'keywords' => array('text')
 
-        ))
+        ));
     }
 }
 ?>
