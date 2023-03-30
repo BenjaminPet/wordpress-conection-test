@@ -1,5 +1,5 @@
 <?php
-//add_action( 'init', 'register_acf_blocks' );
+add_action( 'init', 'hfm_acf_init_block_types' );
 //function register_acf_blocks() {
 //    register_block_type( __DIR__ . '/blocks/text' );
 //}
