@@ -1,0 +1,16 @@
+
+.nav-style {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 50px;
+    box-shadow: 10px 5px 10px whitesmoke;
+}    
+.nav-style ul {
+    list-style-type: none;
+}
+.nav-style ul li {
+    border-radius: 50px;
+    width: 33%;
+}
+.nav-style ul li:hover {
+    background-color: black;
+}
