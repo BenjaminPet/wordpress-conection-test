@@ -22,4 +22,10 @@ function hfm_acf_init_block_types() {
         ));
     }
 }
+
+function styles() {
+    wp_register_style( 'styles', get_stylesheet_directory_uri() . '/global.css');
+    wp_enqueue_style( 'styles');
+    }
+    add_action( 'wp_enqueue_scripts', 'styles' );
 ?>
