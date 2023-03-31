@@ -3,6 +3,9 @@
 * 
 */
 
+body {
+    background-color: gray;
+}
 
 .nav-style {
     background-color: rgba(255, 0, 0, 0.5);

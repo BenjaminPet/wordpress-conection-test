@@ -4,7 +4,6 @@
 //    register_block_type( __DIR__ . '/blocks/text' );
 //}
 
-echo "iuguuuguguggugugugugugugugugggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg";
 
 add_action( 'acf/init', 'hfm_acf_init_block_types' );
 function hfm_acf_init_block_types() {
