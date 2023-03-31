@@ -4,6 +4,7 @@
 //    register_block_type( __DIR__ . '/blocks/text' );
 //}
 
+echo "iuguuuguguggugugugugugugugugggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg";
 
 add_action( 'acf/init', 'hfm_acf_init_block_types' );
 function hfm_acf_init_block_types() {
@@ -24,8 +25,8 @@ function hfm_acf_init_block_types() {
 }
 
 function styles() {
-    wp_register_style( 'styles', get_stylesheet_directory_uri() . '/global.css');
-    wp_enqueue_style( 'styles');
+    //wp_register_style( 'styles', get_stylesheet_directory_uri() . '/global.css');
+    wp_enqueue_style( 'styles', get_stylesheet_directory_uri() . '/global.css');
 }
 add_action( 'wp_enqueue_scripts', 'styles' );
 
